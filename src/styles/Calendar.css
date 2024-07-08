@@ -1,0 +1,15 @@
+/* Calendar.css */
+.calendar-container {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .calendar-container h2 {
+    color: #6a1b9a;
+  }
+  
+  .react-calendar {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

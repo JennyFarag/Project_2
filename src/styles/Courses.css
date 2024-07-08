@@ -1,0 +1,45 @@
+.courses-page {
+  padding: 20px;
+}
+
+.courses-hero {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f3e6f9;
+  border-radius: 10px;
+}
+
+.faceted-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.faceted-search select {
+  margin: 5px 0;
+  padding: 5px;
+  width: 100%;
+  max-width: 200px;
+}
+
+.search-results {
+  text-align: center;
+}
+
+.calendar-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.calendar-container h2 {
+  margin-bottom: 10px;
+}
+
+#custom-calendar {
+  width: 100%;
+}

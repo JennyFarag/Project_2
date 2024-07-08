@@ -1,0 +1,25 @@
+.levels {
+  text-align: center;
+}
+
+.level-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.level-box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6a1b9a;
+  color: white;
+  cursor: pointer;
+}
+
+.level-box:hover {
+  background-color: #4a148c;
+}

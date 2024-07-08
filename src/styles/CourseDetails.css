@@ -1,0 +1,96 @@
+/* CourseDetails.css */
+
+.course-details-page {
+  margin-top: 20px;
+  padding-bottom: 40px; /* Add padding at the bottom to make the page longer */
+}
+
+.course-details-page .purple-title {
+  color: #6a1b9a;
+  font-size: 1.75rem; /* Adjust the size to match the Curriculum title */
+  font-weight: bold; /* Ensure the font weight matches */
+}
+
+.course-details-page .section-title {
+  margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+.course-details-page .about-section {
+  margin-bottom: 20px; /* Reduce the gap between sections */
+}
+
+.course-details-page p {
+  color: #333;
+}
+
+.course-details-page ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.course-details-page .text-right {
+  text-align: right;
+  color: #000;
+}
+
+.video-card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.small-card {
+  width: 100%; /* Adjust the width as needed */
+  max-width: 300px; /* Set a maximum width */
+  margin: 0 auto; /* Center the card */
+}
+
+.video-wrapper {
+  position: relative;
+}
+
+.video-wrapper .play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+
+.video-wrapper .play-button:hover {
+  color: white;
+  opacity: 1;
+}
+
+.join-course-button {
+  background-color: #6a1b9a; /* Purple color */
+  border-color: #6a1b9a; /* Purple border */
+  width: 100%;
+  color: white; /* Ensure text color is white */
+}
+
+.join-course-button:hover {
+  background-color: #4a148c; /* Darker purple on hover */
+  border-color: #4a148c;
+}
+
+.support-line-card {
+  background-color: #6a1b9a;
+  color: white;
+  border-radius: 20px; /* Rounded corners */
+}
+
+.support-line-card h5 {
+  color: white;
+}
+
+.support-line-card p {
+  color: white;
+}
+
+.support-line-card {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+}

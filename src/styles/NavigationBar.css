@@ -1,0 +1,30 @@
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2.5rem; /* Further increase the size */
+  margin-right: 50px; /* Add space between brand and nav links */
+}
+
+.nav-link, .navbar-text {
+  color: black !important; /* Ensure text color is black */
+  margin-right: 20px; /* Add space between nav links */
+}
+
+.register-button {
+  background-color: #C4A8E9 !important;
+  border-color: #C4A8E9 !important;
+  color: white !important; /* Ensure text color is white */
+}
+
+.phone-number {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.phone-number i {
+  margin-right: 5px;
+}
